@@ -1,4 +1,4 @@
-#Sitio web para encriptar o desencriptar textos
+# Sitio web para encriptar o desencriptar textos
 
 # Funcionamiento de los Botones con JS
 
