@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Encripta y desencripta</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="main__contenido1">
+            <img class="main__contenido1__img1" src="/img/Logo-alura.png" alt="logo-Alura.png">
+            <div class="main__contenido1__contenedor">
+                <p class="main__contenedor1__titulo__texto">Ingresa el texto aquí</p>
+                <input class="main__contenido1__input" name="textoIngresado" type="text" pattern="[a-z]" title="texto inválido" id="textoUsuario" required>
+                <p class="main__contenido1__texto">
+                    <img class="main__contenido1__img2" src="/img/circulo-relleno-exclamacion.png" alt="circulo-relleno-exclamacion">Solo letras minúsculas y sin acentos
+                </p>
+                <div class="main__contenido1__botones">
+                    <button type="submit" class="main__contenido1__boton1" id="encriptar">Encriptar</button>
+                    <button type="submit" class="main__contenido1__boton2" id="desencriptar">Desencriptar</button>
+                </div>    
+            </div>
+        </div>
+        <div class="main__contenido2">
+            <img class="main__contenido2__img1" src="img/Muñeco.png" alt="muneño buscando con una lupa" id="img1Contenido2">
+            <div class="main___contenido2__textos">
+                <p class="main__contenido2__texto1" id="texto1Contenido2">Ningún mensaje fue encontrado</p>
+                <p class="main__contenido2__texto2" id="texto2Contenido2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <p class="main__contenido2__texto3" id="mostrarTexto"></p>    
+                <button class="main__contenido2__boton1" id="textoCopiado" hidden>Copiar</button>
+            </div>
+                
+        </div>
+
+    </main>
+    <footer class="footer">
+        <address class="footer__address">
+            Desarrollado por <a href="mailto:enwirt@gmail.com">Karen Huertas</a>
+        </address>
+        <br>
+        <p>&copy;<time datetime="2024">2024</time></p>
+    </footer>
+    <script src="/js/encriptar.js"></script>
+    <script src="/js/portapapeles.js"></script>
+</body>
+
+</html>
